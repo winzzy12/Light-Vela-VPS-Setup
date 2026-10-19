@@ -89,6 +89,16 @@ nano /etc/ssh/sshd_config
 ```
 tailscale set --ssh=false
 ```
+# Change Hostname
+```
+hostnamectl set-hostname
+```
+```
+nano /etc/hosts
+```
+```
+exec bash
+```
 
 ## DONE
 

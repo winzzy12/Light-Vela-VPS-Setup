@@ -62,7 +62,7 @@ userdel -r agentuser
 userdel -r agentuser
 ```
 ```
-kill id process
+kill -9
 ```
 ```
 for u in ubuntu lightclaw agentuser; do
